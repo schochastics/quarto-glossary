@@ -1,0 +1,26 @@
+project:
+  type: book
+  pre-render: glossary.R
+
+filters:
+  - nutshell
+
+book:
+  title: "A quarto book with nutshell glossary"
+  author: "David Schoch"
+  date: "24/01/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - glossary.md
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+
+
+
