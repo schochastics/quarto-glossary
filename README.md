@@ -53,6 +53,8 @@ project:
   pre-render: glossary.R
 ```
 
+The rendered demo book included in this repo with a glossary can be found on [quarto.pub](https://schochastics.quarto.pub/a-quarto-book-with-nutshell-glossary/) 
+
 ## Disclaimer
 
 The pre-render R script is not perfect and still struggles with some cases.
